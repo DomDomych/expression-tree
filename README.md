@@ -5,7 +5,6 @@ A small C++17 expression parser and evaluator.
 It builds an expression tree from infix or postfix notation and supports
 evaluation, variables, multiple output forms and constant folding.
 
-
 ## Features
 
 - infix and postfix expressions
@@ -33,4 +32,4 @@ Supported operators:
 ```bash
 cmake -S . -B build
 cmake --build build
-./build/FifthLab
+./build/expression_tree
