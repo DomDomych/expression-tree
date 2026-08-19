@@ -7,7 +7,7 @@
 #include <stdexcept>
 #include <string>
 
-NumberNode::NumberNode(int value) : value(value) {};
+NumberNode::NumberNode(int value) : value(value) {}
 
 BinaryOperatorNode::BinaryOperatorNode(const std::string &op, std::unique_ptr<ExprNode> left,
                                        std::unique_ptr<ExprNode> right)
@@ -17,9 +17,9 @@ BinaryOperatorNode::BinaryOperatorNode(const std::string &op, std::unique_ptr<Ex
     this->right = std::move(right);
 }
 
-VariableNode::VariableNode(const std::string &name) : name(name) {};
+VariableNode::VariableNode(const std::string &name) : name(name) {}
 
-ExpressionTree::ExpressionTree() : root(nullptr) {};
+ExpressionTree::ExpressionTree() : root(nullptr) {}
 
 void ExpressionTree::setVariable(const std::string &name, const std::string &value)
 {
