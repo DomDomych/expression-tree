@@ -7,10 +7,9 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 add_executable(expression_tree
     example/main.cpp
-    tree/tree.cpp
+    src/expression_tree.cpp
 )
 
 target_include_directories(expression_tree PRIVATE
-    tree
-    map
+    include
 )
