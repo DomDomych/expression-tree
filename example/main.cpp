@@ -1,7 +1,7 @@
 #include <iostream>
 #include <vector>
 #include <string>
-#include "tree.hpp"
+#include "expression_tree.hpp"
 
 void printTreeInfo(ExpressionTree& tree)
 {
